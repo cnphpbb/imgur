@@ -6,3 +6,7 @@ go.sum
 .idea/*
 
 .DS_Store
+
+out.png
+examples/*.png
+examples/*.jpg

@@ -1,4 +1,4 @@
-module imgur
+module github.com/cnphpbb/imgur
 
 go 1.22.1
 
