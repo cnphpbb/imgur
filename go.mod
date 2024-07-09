@@ -1,6 +1,6 @@
 module github.com/cnphpbb/imgur
 
-go 1.22.1
+go 1.18
 
 require (
 	github.com/BurntSushi/graphics-go v0.0.0-20160129215708-b43f31a4a966
