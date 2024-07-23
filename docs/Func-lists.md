@@ -56,7 +56,7 @@ imgur.Load("9961593.png")
 * Base64 编码的图像数据
 * *os.File 类型的文件实例
 * 实现了 image.Image 接口的类型实例
-* *imgo.Image 类型的实例
+* *imgur.Image 类型的实例
 
 实际上在内部实现了如下方法：
 
@@ -108,7 +108,7 @@ func main() {
 | ksize | `int` | 卷积核尺寸
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -165,7 +165,7 @@ func main() {
 | fillColor | `color.Color` | 画布颜色。非必需参数，默认为透明。
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -196,7 +196,7 @@ func main() {
 
 #### 返回值
 
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -260,7 +260,7 @@ func main() {
 | height | `int` | 裁剪区域的高度
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -290,7 +290,7 @@ func main() {
 | c      | `color.Color` | 椭圆颜色
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -376,7 +376,7 @@ func main() {
 
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -420,7 +420,7 @@ func main() {
 | sigma | `float64` | 高斯卷积核标准差
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -445,7 +445,7 @@ func main() {
 无
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -562,10 +562,10 @@ func main() {
 | Base64 编码的图像数据                | `string` 或 `[]byte` |
 | `*os.File` 类型的文件实例            | `*os.File`          | 
 | 实现了 `image.Image` 接口的类型实例     | `image.Image` 以及实现了 `image.Image` 接口的类型 |
-| `*imgo.Image` 类型的实例           |  `*imgo.Image`  |
+| `*imgur.Image` 类型的实例           |  `*imgur.Image`  |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ##### 图像文件路径
@@ -665,7 +665,7 @@ func main() {
         Save("out.png")
 }
 ```
-##### `*imgo.Image` 类型的实例
+##### `*imgur.Image` 类型的实例
 ```go
 package main
 
@@ -699,10 +699,10 @@ func main() {
 | Base64 编码的图像数据                | `string` 或 `[]byte` |
 | `*os.File` 类型的文件实例            | `*os.File`          | 
 | 实现了 `image.Image` 接口的类型实例     | `image.Image` 以及实现了 `image.Image` 接口的类型 |
-| `*imgo.Image` 类型的实例           |  `*imgo.Image`  |
+| `*imgur.Image` 类型的实例           |  `*imgur.Image`  |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ##### 图像文件路径
@@ -794,7 +794,7 @@ func main() {
         Save("out.png")
 }
 ```
-##### `*imgo.Image` 类型的实例
+##### `*imgur.Image` 类型的实例
 ```go
 package main
 
@@ -818,7 +818,7 @@ func main() {
 | base64Str | `string`  | Base64 编码的图像字符串  |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -845,7 +845,7 @@ func main() {
 | file | `*os.File`  | `*os.File` 类型的文件实例  |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -878,7 +878,7 @@ func main() {
 | img | `image.Image`  | 实现了 `image.Image` 接口的类型实例 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -909,15 +909,15 @@ func main() {
 ```
 
 ### LoadFromImgo
-从 `*imgo.Image` 实例加载图像。推荐使用 `Load` 方法加载图像。
+从 `*imgur.Image` 实例加载图像。推荐使用 `Load` 方法加载图像。
 
 #### 参数
 | 参数名  | 类型          | 说明                        |
 |:-----|:------------|:--------------------------|
-| i    | `*imgo.Image`  | `*imgo.Image` 实例 |
+| i    | `*imgur.Image`  | `*imgur.Image` 实例 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -944,7 +944,7 @@ func main() {
 | path | `string` | 图像文件路径 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -970,7 +970,7 @@ func main() {
 | url | `string` | 图像 URL |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1001,7 +1001,7 @@ func main() {
 | c   | `color.Color` | 直线颜色 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1089,7 +1089,7 @@ image/png
 | y2  | `int`  | 马赛克区域右下角坐标 y 轴 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1115,7 +1115,7 @@ func main() {
 | y    | `int`  | 坐标 y 轴  |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -1145,7 +1145,7 @@ func main() {
 | c   | `color.Color`  | 像素点颜色 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1173,7 +1173,7 @@ func main() {
 | size | `int` | 像素大小       |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1200,7 +1200,7 @@ func main() {
 | radius | `int` | 圆角半径       |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1231,7 +1231,7 @@ func main() {
 | c      | `color.Color` | 直线颜色        |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1262,7 +1262,7 @@ func main() {
 `width` 和 `height` 参数不允许同时为 0，但允许其中一个为 0，意思为保持原图像的比例，按照非 0 参数通过原图像的比例计算出另一个参数。
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -1288,7 +1288,7 @@ func main() {
 | angle  | `int` | 旋转的角度 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
@@ -1322,7 +1322,7 @@ func main() {
 - tiff
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ##### PNG
@@ -1392,7 +1392,7 @@ func main() {
 | dpi | `float64` | 文字 DPI |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -1433,7 +1433,7 @@ func main() {
 - `AlignRight` -- 右上顶点
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 ```go
@@ -1491,7 +1491,7 @@ func alignCenterStr() {
 | height | `int` | 略缩图高度 |
 
 #### 返回值
-`*imgo.Image` 类型的实例。
+`*imgur.Image` 类型的实例。
 
 #### 例子
 
