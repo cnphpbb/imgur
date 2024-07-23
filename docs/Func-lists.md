@@ -10,7 +10,7 @@
 ```go
 package main
 
-import "gateway/lib/imgur"
+import "github.com/cnphpbb/imgur"
 
 func main() {
 	imgA := imgur.Load("9961593.png").
@@ -28,7 +28,7 @@ func main() {
 ```go
 package main
 
-import "gateway/lib/imgur"
+import "github.com/cnphpbb/imgur"
 
 func main() {
 	imgA := imgur.Load("9961593.png")
@@ -81,7 +81,7 @@ LoadFromImgo(i *Image) *Image
 package main
 
 import (
-    "gateway/lib/imgur"
+    "github.com/cnphpbb/imgur"
     "fmt"
 )
 
@@ -115,7 +115,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -139,7 +139,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"fmt"
 )
 
@@ -172,7 +172,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -203,7 +203,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -232,7 +232,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -267,7 +267,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -297,7 +297,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -323,7 +323,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -352,7 +352,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -385,7 +385,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -400,7 +400,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -428,7 +428,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -453,7 +453,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -467,7 +467,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -482,7 +482,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "golang.org/x/image/colornames"
 )
 
@@ -510,7 +510,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -533,7 +533,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "net/http"
 )
 
@@ -573,7 +573,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
 )
 
@@ -588,7 +588,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
 )
 
@@ -604,7 +604,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
 )
 
@@ -620,7 +620,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
     "os"
 )
@@ -642,7 +642,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
     "image/png"
     "os"
@@ -670,7 +670,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     colors "golang.org/x/image/colornames"
 )
 
@@ -710,7 +710,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -723,7 +723,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -737,7 +737,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
 )
 
@@ -752,7 +752,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	colors "golang.org/x/image/colornames"
     "os"
 )
@@ -773,7 +773,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "image/png"
     "os"
 )
@@ -799,7 +799,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -826,7 +826,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -853,7 +853,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "os"
 )
 
@@ -886,7 +886,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "image/png"
     "os"
 )
@@ -925,7 +925,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -952,7 +952,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -978,7 +978,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1009,7 +1009,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -1037,7 +1037,7 @@ package main
 
 import (
     "fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1062,7 +1062,7 @@ package main
 
 import (
     "fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1096,7 +1096,7 @@ image/png
 ```go
 package main
 
-import "gateway/lib/imgur"
+import "github.com/cnphpbb/imgur"
 
 func main() {
 	imgur.Load("workingID.png").
@@ -1123,7 +1123,7 @@ package main
 
 import (
     "fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1153,7 +1153,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -1181,7 +1181,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1208,7 +1208,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1239,7 +1239,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"golang.org/x/image/colornames"
 )
 
@@ -1269,7 +1269,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1296,7 +1296,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1330,7 +1330,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1343,7 +1343,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1368,7 +1368,7 @@ package main
 
 import (
     "fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1399,7 +1399,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
     "golang.org/x/image/colornames"
 )
 
@@ -1440,7 +1440,7 @@ func main() {
 package main
 
 import (
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 	"image/color"
 	"time"
 )
@@ -1499,7 +1499,7 @@ func alignCenterStr() {
 package main
 
 import (
-    "gateway/lib/imgur"
+    "github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1523,7 +1523,7 @@ func main() {
 ```go
 package main
 
-import "gateway/lib/imgur"
+import "github.com/cnphpbb/imgur"
 
 func main() {
 	Base64Img := imgur.Load("workingID.png").ToBase64()
@@ -1551,7 +1551,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
@@ -1582,7 +1582,7 @@ package main
 
 import (
 	"fmt"
-	"gateway/lib/imgur"
+	"github.com/cnphpbb/imgur"
 )
 
 func main() {
